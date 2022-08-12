@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containar {
+    background-image: url("./river-1590010__340.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 980px;
+    position: fixed;
+}
+
+.box {
+    height: 100%;
+    width: 50%;
+    background-color: rgba(17, 15, 15, 0.432);
+    /* opacity: 70%; */
+    position: fixed;
+}
+
+.box p {
+    font-size: 30px;
+    margin-top: 300px;
+    margin-left: 150px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.box h1 {
+    margin-left: 150px;
+    text-transform: uppercase;
+    font-size: 225px;
+    /* width: 900px; */
+    color: white;
+}
+
+.box h3 {
+    margin-top: 60px;
+    margin-left: 150px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.box h4 {
+    margin-left: 150px;
+    margin-right: 120px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.box h5 {
+    margin-left: 150px;
+    margin-top: 15px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.box1 {
+    height: 190px;
+    width: 750px;
+    /* background-color: yellow; */
+    margin-top: 485px;
+    margin-left: 50%;
+    opacity: 60%;
+}
+
+.box1 h1 {
+    font-size: 190px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.header {
+    height: 150px;
+    width: 600px;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 0px 0px 20px 20px;
+    /* position: fixed; */
+    /* display: flex; */
+    position: absolute;
+    top: 0px;
+    left: 33%;
+}
+
+.logo {
+    height: 60%;
+    width: 45%;
+    margin: auto;
+    /* background-color: yellow; */
+}
+
+.logoimg {
+    /* height: 30%; */
+    width: 70px;
+    /* background-color: aqua; */
+    margin: 0px 45px;
+    padding-top: 10px;
+}
+
+.logoimg img {
+    height: 50%;
+    width: 70px;
+}
+
+.logo p {
+    margin-top: -12px;
+    margin-right: 60px;
+    color: rgba(5, 5, 5, 0.705);
+    text-align: right;
+    font-size: 35px;
+}
+
+.logo p span {
+    color: black;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.menu {
+    width: 100%;
+    height: 40%;
+    margin: auto;
+    /* background-color: yellow; */
+    text-align: center;
+}
+
+.menu a {
+    font-size: 25px;
+    padding: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    height: 50px;
+    width: 450px;
+    background-color: #fff;
+    border-radius: 15px 15px 0px 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 37%;
+    opacity: 80%;
+}
+
+.footer a {
+    font-size: 30px;
+    margin: 40px;
+    position: relative;
+    top: 10px;
+    color: black;
+}
